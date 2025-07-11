@@ -122,3 +122,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+.scrollbar-dark::-webkit-scrollbar {
+  width: 8px; /* Largura da barra */
+}
+
+.scrollbar-dark::-webkit-scrollbar-track {
+  background: #0f0f12; /* ex: zinc-900 */
+
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb {
+  background-color: #27272a; /* ex: zinc-600 */
+  border-radius: 4px;
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb:hover {
+  background: #71717a; /* ex: zinc-500 no hover */
+}
