@@ -64,7 +64,7 @@ nwl/
 
 ### 1. Clone o repositório
 ```bash
-git clone <repository-url>
+git clone https://github.com/PriscilaDias2003/NWL-Agents.git
 cd nwl
 ```
 
@@ -124,7 +124,3 @@ O projeto está preparado para integração com a **API do Google Gemini**, perm
 - Mantenham contexto das conversas
 - Forneçam respostas precisas e relevantes
 - Aprendam com as interações anteriores
-
-## 📝 Licença
-
-Este projeto foi desenvolvido durante o evento NLW da Rocketseat e está sob licença ISC.
