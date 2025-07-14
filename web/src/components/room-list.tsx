@@ -11,7 +11,7 @@ export function RoomList(){
     return(
          <Card>
             <CardHeader>
-                <CardTitle>Slas recentes</CardTitle>
+                <CardTitle>Salas recentes</CardTitle>
                 <CardDescription>Acesso rápido para as salas criadas recentemente</CardDescription>
             </CardHeader>
 

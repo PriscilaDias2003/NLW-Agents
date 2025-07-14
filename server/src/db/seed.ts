@@ -1,5 +1,5 @@
 import { reset, seed } from 'drizzle-seed'
-import { schema } from './schema/index.ts'
+import { schema } from './schema/seed-schema.ts'
 import { db, sql } from './connection.ts'
 
 await reset(db, schema)
