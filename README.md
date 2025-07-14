@@ -60,60 +60,24 @@ nwl/
 │   │   │   ├── connection.ts # Conexão com PostgreSQL
 │   │   │   ├── migrations/   # Migrações do banco
 │   │   │   ├── schema/       # Schemas das tabelas
-│   │   │   │   ├── rooms.ts  # Tabela de salas
-│   │   │   │   ├── audio-chunks.ts # Tabela de chunks de áudio
-│   │   │   │   ├── questions.ts # Tabela de perguntas
-│   │   │   │   └── index.ts  # Barrel file
 │   │   │   └── seed.ts       # Dados iniciais
 │   │   ├── http/             # Rotas e handlers
 │   │   │   ├── routes/       # Endpoints da API
-│   │   │   │   ├── create-room.ts
-│   │   │   │   ├── get-rooms.ts
-│   │   │   │   ├── upload-audio.ts
-│   │   │   │   ├── create-room-question.ts
-│   │   │   │   └── get-room-questions.ts
 │   │   │   └── client.http   # Testes da API
 │   │   ├── services/         # Serviços externos
 │   │   │   └── gemini.ts     # Integração com Gemini AI
 │   │   ├── env.ts            # Configuração de ambiente
 │   │   └── server.ts         # Servidor principal
 │   ├── docker/               # Configuração Docker
-│   │   ├── setup.sql         # Setup inicial do banco
-│   │   └── docker-compose.yml
 │   ├── drizzle.config.ts     # Configuração Drizzle
 │   └── package.json
 └── web/                      # Frontend React + Vite
     ├── src/
     │   ├── components/       # Componentes reutilizáveis
     │   │   ├── ui/           # Componentes base (Radix UI)
-    │   │   │   ├── button.tsx
-    │   │   │   ├── card.tsx
-    │   │   │   ├── form.tsx
-    │   │   │   ├── input.tsx
-    │   │   │   ├── label.tsx
-    │   │   │   ├── textarea.tsx
-    │   │   │   └── badge.tsx
-    │   │   ├── create-room-form.tsx
-    │   │   ├── question-form.tsx
-    │   │   ├── question-item.tsx
-    │   │   ├── question-list.tsx
-    │   │   └── room-list.tsx
     │   ├── pages/            # Páginas da aplicação
-    │   │   ├── create-room.tsx
-    │   │   ├── record-room-audio.tsx
-    │   │   └── room.tsx
     │   ├── http/             # Cliente HTTP e tipos
     │   │   ├── types/        # Tipos TypeScript
-    │   │   │   ├── create-room-request.ts
-    │   │   │   ├── create-room-response.ts
-    │   │   │   ├── create-question-request.ts
-    │   │   │   ├── create-question-reponse.ts
-    │   │   │   ├── get-rooms-reponse.ts
-    │   │   │   └── get-room-questions-repesponse.ts
-    │   │   ├── use-create-room.ts
-    │   │   ├── use-create-room-question.ts
-    │   │   ├── use-room-questions.ts
-    │   │   └── use-rooms.ts
     │   ├── lib/              # Utilitários
     │   │   ├── dayjs.ts      # Configuração de datas
     │   │   └── utils.ts      # Funções utilitárias
